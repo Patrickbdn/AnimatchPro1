@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+
+:root {
+  --irish-grover: "irish-grover", sans-serif;
+  --inika: "inika", sans-serif;
+  --primary: 0, 0, 0;
+  --secondary: 255, 255, 255;
+  --brown: 162, 96, 96;
+  --brownlight: 190, 144, 144;
+  --green: 223, 240, 216;
+}
+
+header {
+  background-color: rgb(235, 196, 149);
+  background-image: url("assets/photodechats.jpeg");
+}
+nav {
+  background-color: rgba(var(--brown));
+}
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  color: white;
+  text-decoration: none; /* Supprime le soulignement par défaut */
+  padding: 1em;
+  display: inline-block;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Ajoute le soulignement au survol */
+}
+
+main {
+  background-color: rgb(252, 253, 253);
+}
+h1 {
+  color: rgba(var(--brownlight));
+  font-size: 32px;
+}
+h2 {
+  background-color: rgba(var(--green));
+  border-radius: 32px;
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  height: 50px; /* Définissez une hauteur pour le conteneur */
+}
+h3 {
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  height: 50px; /* Définissez une hauteur pour le conteneur */
+  width: 50%;
+}
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+#animaux ul {
+  display: flex;
+  gap: 32px;
+}
+#animaux ul li {
+  width: 33%;
+}
+#animaux ul li img {
+  width: 100%;
+
+  border-radius: 32px;
+}
+figure {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+blockquote {
+  flex: 1;
+  margin: 0 20px;
+  font-family: var(--inika);
+}
+
+img {
+  max-width: 100px;
+  margin-left: 20px;
+}
+
+figcaption {
+  margin-left: 20px;
+  font-family: var(--inika);
+}
+
+footer {
+}

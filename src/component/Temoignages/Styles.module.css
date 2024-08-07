@@ -1,0 +1,24 @@
+figure {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+blockquote {
+  flex: 1;
+  margin: 0 20px;
+  font-family: var(--inika);
+}
+
+img {
+  max-width: 100px;
+  margin-left: 20px;
+}
+
+figcaption {
+  margin-left: 20px;
+  font-family: var(--inika);
+}

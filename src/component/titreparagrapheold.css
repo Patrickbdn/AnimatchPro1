@@ -1,0 +1,9 @@
+function Titreparagraphe (){
+    background-color: rgba(var(--green));
+    border-radius: 32px;
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    height: 50px; /* Définit une hauteur pour le conteneur */
+}
+export default Titreparagraphe

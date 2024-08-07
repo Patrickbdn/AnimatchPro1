@@ -1,0 +1,87 @@
+.Hero {
+  color: var(--main-color);
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  flex-direction: column;
+}
+
+.Hero > h1 {
+  font-size: 10em;
+  margin: 0;
+}
+.Hero p {
+  margin: 0;
+  width: 50%;
+}
+.Hero span {
+  position: relative;
+  top: -50px;
+  left: 5px;
+  display: inline-block;
+  width: 45%;
+  height: 30px;
+  background-color: var(--complement-color);
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+.Introduction {
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  height: 50px;
+}
+.coeur {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
+
+.bg-img {
+  position: absolute;
+  width: 1632px;
+  height: 600px;
+  top: 17px;
+  left: -120px;
+  z-index: -3;
+}
+
+.cover-bg-img {
+  position: absolute;
+  width: 1188px;
+  height: 600px;
+  top: 17px;
+  left: 98px;
+  z-index: -2;
+  background: radial-gradient(ellipse, transparent 8%, var(--bg-color) 58%);
+}
+h2 {
+  background-color: rgba(var(--green));
+  border-radius: 32px;
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  height: 50px; /* Définissez une hauteur pour le conteneur */
+}
+h3 {
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  height: 50px; /* Définissez une hauteur pour le conteneur */
+  width: 30%;
+}
+.coeur {
+  display: inline-block;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
