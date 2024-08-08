@@ -25,11 +25,7 @@ export const HomePage = () => {
         </h3>
         <div>
           <div>
-            <li>
-              <a href="/">
-                <img src={Coeur} className="coeur" alt="déposer une annonce" />
-              </a>
-            </li>
+            <li></li>
           </div>
         </div>
         <section id="animaux">
