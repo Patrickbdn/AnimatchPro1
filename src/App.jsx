@@ -1,22 +1,26 @@
-// import logo from './logo.svg';
-import React, { FunctionComponent } from "react";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import MainLayout from "./layouts/MainLayout";
 import "./App.css";
-import LoginForm from "./component/LoginPage/LoginForm";
-import SignupForm from "./component/LoginPage/SignupForm";
-import Header from "./component/Header";
-import NavBar from "./component/NavBar/NavBar";
-import HomePage from "./component/HomePage/HomePage";
-import Footer from "./component/Footer/Footer";
+
+import AnimauxDomestiques from "./pages/AnimauxDomestiques";
+import AnimauxDeLaFerme from "./pages/AnimauxFerme";
+import AutresNAC from "./pages/AutresAnimaux";
+import DeposerUneAnnonce from "./pages/DeposerAnnonce";
+import Home from "./pages/Home";
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <NavBar />
-      <HomePage />
-      <Footer />
-    </div>
-  );
+	return (
+		<MainLayout>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/animaux-domestiques" element={<AnimauxDomestiques />} />
+				<Route path="/animaux-de-la-ferme" element={<AnimauxDeLaFerme />} />
+				<Route path="/autres-nac" element={<AutresNAC />} />
+				<Route path="/deposer-une-annonce" element={<DeposerUneAnnonce />} />
+			</Routes>
+		</MainLayout>
+	);
 }
 
 export default App;
