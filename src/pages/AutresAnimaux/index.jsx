@@ -1,18 +1,17 @@
 import React from "react";
 
-const AnimauxDomestiques = () => {
-	return (
-		<div className="animaux-domestiques">
-			<h1>Animaux Domestiques</h1>
-			<p>Bienvenue sur la page des animaux domestiques.</p>
-			<ul>
-				<li>Chiens</li>
-				<li>Chats</li>
-				<li>Lapins</li>
-				<li>Hamsters</li>
-			</ul>
-		</div>
-	);
+const AutresNAC = () => {
+  return (
+    <div className="autres-NAC">
+      <h1>Nouveaux animaux de compagnie</h1>
+      <p>Bienvenue sur la page des Nouveaux Animaux de Compagnie.</p>
+      <ul>
+        <li>Tortues</li>
+        <li>Serpents</li>
+        <li>Autres</li>
+      </ul>
+    </div>
+  );
 };
 
-export default AnimauxDomestiques;
+export default AutresNAC;
