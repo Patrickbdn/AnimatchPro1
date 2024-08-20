@@ -2,43 +2,36 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 
-const CreationCompte = () => {
+const Connexion = () => {
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
-
   const navigate = useNavigate();
 
   const onSubmit = (data) => {
     const utilisateurs = JSON.parse(
       localStorage.getItem("utilisateurs") || "[]"
     );
-    const utilisateurExiste = utilisateurs.find(
-      (utilisateur) => utilisateur.email === data.email
+    const utilisateur = utilisateurs.find(
+      (u) => u.email === data.email && u.motdepasse === data.motdepasse
     );
 
-    if (utilisateurExiste) {
-      alert("L'utilisateur existe déjà");
-      return;
+    if (utilisateur) {
+      localStorage.setItem("utilisateurActuel", JSON.stringify(utilisateur));
+      // navigate('/tableau-de-bord');
+    } else {
+      alert("Identifiants invalides");
     }
-
-    utilisateurs.push(data);
-    localStorage.setItem("utilisateurs", JSON.stringify(utilisateurs));
-    navigate("/connexion");
   };
 
   return (
-    <div className="creation-de-compte">
-      <h1>Création de compte</h1>
-      <p>Bienvenue sur la page de création de compte</p>
+    <div className="connexion">
+      <h1>Connexion</h1>
+      <p>Bienvenue sur la page de Connexion</p>
 
       <form className="column-container" onSubmit={handleSubmit(onSubmit)}>
-        <label>Nom</label>
-        <input {...register("nom")}></input>
-        <label>Prénom</label>
-        <input {...register("prenom")}></input>
         <label>Email</label>
         <input {...register("email")}></input>
         <label>Mot de passe</label>
@@ -49,4 +42,4 @@ const CreationCompte = () => {
   );
 };
 
-export default CreationCompte;
+export default Connexion;

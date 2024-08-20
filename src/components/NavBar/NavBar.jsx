@@ -19,7 +19,7 @@ export const NavBar = () => {
           <Link to="/autres-nac">Autres NAC</Link>
         </li>
         <li>
-          <Link to="/creation-de-compte">Déposer une annonce</Link>
+          <Link to="/deposer-une-annonce">Déposer une annonce</Link>
         </li>
       </ul>
     </nav>

@@ -8,8 +8,8 @@ import AutresNAC from "./pages/AutresAnimaux";
 import DeposerUneAnnonce from "./pages/DeposerAnnonce";
 import Home from "./pages/Home";
 import FicheAnimal from "./pages/FicheAnimal";
-import { useDispatch } from "react-redux";
-import { saveFormData } from "./formSlice";
+import CreationCompte from "./pages/CreationCompte";
+import Connexion from "./pages/Connexion";
 
 function App() {
   return (
@@ -21,6 +21,8 @@ function App() {
         <Route path="/autres-nac" element={<AutresNAC />} />
         <Route path="/deposer-une-annonce" element={<DeposerUneAnnonce />} />
         <Route path="/fiche-animal/:animalId" element={<FicheAnimal />} />
+        <Route path="/creation-de-compte" element={<CreationCompte />} />
+        <Route path="/connexion" element={<Connexion />} />
       </Routes>
     </MainLayout>
   );
