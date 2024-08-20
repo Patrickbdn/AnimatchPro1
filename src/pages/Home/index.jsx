@@ -62,13 +62,6 @@ export const HomePage = () => {
             </li>
           </ul>
         </section>
-        <div className="cover-bg-img" />
-        <video className="bg-img" autoPlay loop muted>
-          <source
-            src="animatch/public/4915-181329605_small.mp4"
-            type="video/mp4"
-          />
-        </video>
       </div>
     </>
   );
