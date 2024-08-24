@@ -1,0 +1,29 @@
+#grille {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.carte-animal {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+  width: 200px;
+}
+
+.animal-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}

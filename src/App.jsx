@@ -10,7 +10,8 @@ import Home from "./pages/Home";
 import FicheAnimal from "./pages/FicheAnimal";
 import CreationCompte from "./pages/CreationCompte";
 import Connexion from "./pages/Connexion";
-
+import GrilleAnimaux from "./components/GrilleAnimaux";
+import animaux from "./data/animaux";
 function App() {
   return (
     <MainLayout>

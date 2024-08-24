@@ -21,6 +21,12 @@ export const NavBar = () => {
         <li>
           <Link to="/deposer-une-annonce">Déposer une annonce</Link>
         </li>
+        <li>
+          <Link to="/creation-de-compte">Créer un compte</Link>
+        </li>
+        <li>
+          <Link to="/connexion">Connexion</Link>
+        </li>
       </ul>
     </nav>
   );

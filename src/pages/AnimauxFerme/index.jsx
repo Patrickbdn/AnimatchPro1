@@ -1,18 +1,16 @@
 import React from "react";
+import animaux from "../../data/animaux";
+import GrilleAnimaux from "../../components/GrilleAnimaux";
 
-const AnimauxDeLaFerme = () => {
+const AnimauxFerme = () => {
+  const animauxFerme = animaux.filter((animal) => animal.categorie === "ferme");
   return (
-    <div className="AnimauxDeLaFerme">
-      <h1>Animaux de la ferme</h1>
+    <div className="animaux-ferme">
+      <h1>Animaux de la Ferme</h1>
       <p>Bienvenue sur la page des animaux de la ferme.</p>
-      <ul>
-        <li>Vache</li>
-        <li>Mouton</li>
-        <li>Cochon</li>
-        <li>Chevaux</li>
-      </ul>
+      <GrilleAnimaux animaux={animauxFerme} />
     </div>
   );
 };
 
-export default AnimauxDeLaFerme;
+export default AnimauxFerme;
