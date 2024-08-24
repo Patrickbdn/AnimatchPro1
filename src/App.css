@@ -230,6 +230,15 @@ h2 {
   height: 50px; /* Définissez une hauteur pour le conteneur */
   font-family: var(--inika);
 }
+h3 {
+  background-color: bisque;
+  border-radius: 32px;
+  display: flex;
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  height: 50px; /* Définissez une hauteur pour le conteneur */
+  font-family: var(--inika);
+}
 
 main {
   max-width: 1140px;
@@ -245,7 +254,7 @@ main {
 }
 #animaux ul li img {
   width: 100%;
-
+  height: auto;
   border-radius: 32px;
 }
 figure {
@@ -265,7 +274,7 @@ blockquote {
 
 img {
   max-width: 200px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 figcaption {

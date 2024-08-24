@@ -3,7 +3,7 @@ import styles from "./Grille.module.css";
 
 const GrilleAnimaux = (props) => {
   return (
-    <div id="grille">
+    <div className={styles.grille}>
       {props.animaux.map((animal) => (
         <div className="carte-animal">
           <img src={animal.image} alt={animal.nom} className="animal-image" />

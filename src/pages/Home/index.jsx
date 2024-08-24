@@ -15,13 +15,13 @@ export const HomePage = () => {
         <h2>
           Le site de rencontre qu'il vous faut, ou plutôt à votre animal ;D
         </h2>
-        <h3>
+        <p>
           Vous recherchez un/une compagne pour votre animal afin d'assurer sa
           descendance ? Qu'il soit domestique ou de la ferme vous êtes au bon
           endroit. Passez une annonce afin de faire connaître votre animal dans
           votre région ou sur l'ensemble de la France ! Tout est gratuit ! de
           l'isncription à la mise en relation !
-        </h3>
+        </p>
         <div>
           <Link to="/deposer-une-annonce">
             <img
@@ -38,24 +38,24 @@ export const HomePage = () => {
           <ul>
             <li>
               <Link to="/animaux-domestiques">
-                Animaux domestiques
                 <div className="image-wrapper">
+                  <h3>Animaux domestiques</h3>
                   <img src={compagnie} alt="animaux domestiques" />
                 </div>
               </Link>
             </li>
             <li>
               <Link to="/animaux-de-la-ferme">
-                Animaux de la ferme
                 <div className="image-wrapper">
+                  <h3>Animaux de la ferme</h3>
                   <img src={ferme} alt="animaux de la ferme" />
                 </div>
               </Link>
             </li>
             <li>
               <Link to="/autres-nac">
-                Autres...
                 <div className="image-wrapper">
+                  <h3>Autres...</h3>
                   <img src={NAC} alt="Autres NAC" />
                 </div>
               </Link>
