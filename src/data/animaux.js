@@ -9,7 +9,7 @@ const animaux = [
     race: "holstein",
     espece: "vache",
     couleur: "noir et blanc",
-    Image:
+    image:
       "https://images.pexels.com/photos/1175048/pexels-photo-1175048.jpeg?auto=compress&cs=tinysrgb&w=300",
   },
   {
@@ -21,7 +21,7 @@ const animaux = [
     race: "labrador retriever",
     espece: "chien",
     couleur: "dore",
-    Image:
+    image:
       "https://images.pexels.com/photos/1790446/pexels-photo-1790446.jpeg?auto=compress&cs=tinysrgb&w=300",
   },
   {

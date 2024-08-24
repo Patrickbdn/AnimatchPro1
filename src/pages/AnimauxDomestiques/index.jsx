@@ -9,7 +9,7 @@ const AnimauxDomestiques = () => {
   return (
     <div className="animaux-domestiques">
       <h1>Animaux Domestiques</h1>
-      <p>Bienvenue sur la page des animaux domestiques.</p>
+      <h2>Bienvenue sur la page des animaux domestiques.</h2>
       <GrilleAnimaux animaux={animauxDomestiques} />
     </div>
   );

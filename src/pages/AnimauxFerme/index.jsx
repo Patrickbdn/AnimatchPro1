@@ -7,7 +7,7 @@ const AnimauxFerme = () => {
   return (
     <div className="animaux-ferme">
       <h1>Animaux de la Ferme</h1>
-      <p>Bienvenue sur la page des animaux de la ferme.</p>
+      <h2>Bienvenue sur la page des animaux de la ferme.</h2>
       <GrilleAnimaux animaux={animauxFerme} />
     </div>
   );

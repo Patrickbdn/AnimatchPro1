@@ -7,7 +7,7 @@ const AutresAnimaux = () => {
   return (
     <div className="autres-nac">
       <h1>Autres Animaux de Compagnie</h1>
-      <p>Bienvenue sur la page des Nouveaux Animaux de Compagnie.</p>
+      <h2>Bienvenue sur la page des Nouveaux Animaux de Compagnie.</h2>
       <GrilleAnimaux animaux={AutresAnimaux} />
     </div>
   );
