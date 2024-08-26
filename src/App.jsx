@@ -12,6 +12,8 @@ import CreationCompte from "./pages/CreationCompte";
 import Connexion from "./pages/Connexion";
 import GrilleAnimaux from "./components/GrilleAnimaux";
 import animaux from "./data/animaux";
+import MentionsLegales from "./components/MentionsLegales";
+import { Link } from "react-router-dom";
 function App() {
   return (
     <MainLayout>
@@ -24,6 +26,7 @@ function App() {
         <Route path="/fiche-animal/:animalId" element={<FicheAnimal />} />
         <Route path="/creation-de-compte" element={<CreationCompte />} />
         <Route path="/connexion" element={<Connexion />} />
+        <Route path="/mentions-legales" element={<MentionsLegales />} />
       </Routes>
     </MainLayout>
   );
