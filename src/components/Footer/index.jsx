@@ -20,7 +20,6 @@ const Footer = () => {
       <p>Créateur d'Animatch Patrick Bodin</p>
       <p>Version 1.1 sous Réact </p>
       <Link to="/mentions-legales">Mentions Légales</Link>
-      <p>Mentions</p>
       <p>RGPD</p>
       <p>Merci : Figma, Lococco.com, tristanremy.com</p>
       <p>Tous droits réservés</p>

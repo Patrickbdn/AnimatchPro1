@@ -7,24 +7,24 @@ const MentionsLegales = () => {
       <h1>Mentions Légales</h1>
       <h2>Éditeur du Site</h2>
       <p>
-        Le site [Nom du Site] est édité par [Nom de l'Éditeur], domicilié à
-        [Adresse de l'Éditeur], [Code Postal] [Ville], [Pays].
+        Le site Animatch est édité par Patrick Bodin, domicilié à 844 route de
+        Dinard 35730 Pleurtuit France,.
       </p>
       <p>
         Pour toute question ou demande d'information, vous pouvez nous contacter
-        à l'adresse e-mail suivante : [Adresse e-mail].
+        à l'adresse e-mail suivante : patrick.bodin.pro@gmail.com.
       </p>
       <h2>Hébergeur</h2>
       <p>
-        Le site [Nom du Site] est hébergé par [Nom de l'Hébergeur], dont le
-        siège social est situé à [Adresse de l'Hébergeur], [Code Postal]
-        [Ville], [Pays].
+        Le site Animatch est hébergé par [Nom de l'Hébergeur], dont le siège
+        social est situé à [Adresse de l'Hébergeur], [Code Postal] [Ville],
+        [Pays].
       </p>
       <h2>Propriété Intellectuelle</h2>
       <p>
-        Tous les contenus présents sur le site [Nom du Site] (textes, images,
-        vidéos, etc.) sont la propriété exclusive de [Nom de l'Éditeur] ou de
-        ses partenaires. Toute reproduction, diffusion, ou utilisation de ces
+        Tous les contenus présents sur le site Animatch (textes, images, vidéos,
+        etc.) sont la propriété exclusive de [Nom de l'Éditeur] ou de ses
+        partenaires. Toute reproduction, diffusion, ou utilisation de ces
         contenus sans autorisation expresse est interdite.
       </p>
       <h2>Responsabilité</h2>
@@ -38,17 +38,17 @@ const MentionsLegales = () => {
       <p>
         Tous les informations indiquées sur le site [Nom du Site] sont données à
         titre indicatif, et sont susceptibles d’évoluer. Par ailleurs, les
-        renseignements figurant sur le site [Nom du Site] ne sont pas
-        exhaustifs. Ils sont donnés sous réserve de modifications ayant été
-        apportées depuis leur mise en ligne.
+        renseignements figurant sur le site Animatch ne sont pas exhaustifs. Ils
+        sont donnés sous réserve de modifications ayant été apportées depuis
+        leur mise en ligne.
       </p>
       <h2>Liens Hypertextes</h2>
       <p>
-        Le site [Nom du Site] contient un certain nombre de liens hypertextes
-        vers d’autres sites, mis en place avec l’autorisation de [Nom de
-        l'Éditeur]. Cependant, [Nom de l'Éditeur] n’a pas la possibilité de
-        vérifier le contenu des sites ainsi visités, et n’assumera en
-        conséquence aucune responsabilité de ce fait.
+        Le site Animatch contient un certain nombre de liens hypertextes vers
+        d’autres sites, mis en place avec l’autorisation de [Nom de l'Éditeur].
+        Cependant, [Nom de l'Éditeur] n’a pas la possibilité de vérifier le
+        contenu des sites ainsi visités, et n’assumera en conséquence aucune
+        responsabilité de ce fait.
       </p>
       <h2>Cookies</h2>
       <p>
@@ -59,14 +59,14 @@ const MentionsLegales = () => {
       </p>
       <h2>Droit Applicable et Attribution de Juridiction</h2>
       <p>
-        Tout litige en relation avec l’utilisation du site [Nom du Site] est
-        soumis au droit [Pays]. Il est fait attribution exclusive de juridiction
-        aux tribunaux compétents de [Ville].
+        Tout litige en relation avec l’utilisation du site Animatch est soumis
+        au droit Français. Il est fait attribution exclusive de juridiction aux
+        tribunaux compétents de St Malo.
       </p>
       <h2>Contact</h2>
       <p>
         Pour toute question ou demande d'information, vous pouvez nous contacter
-        à l'adresse e-mail suivante : [Adresse e-mail].
+        à l'adresse e-mail suivante : patrick.bodin.pro@gmail.com.
       </p>
     </div>
   );
