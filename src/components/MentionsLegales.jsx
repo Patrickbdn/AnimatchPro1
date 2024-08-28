@@ -44,9 +44,9 @@ const MentionsLegales = () => {
       <h2>Liens Hypertextes</h2>
       <p>
         Le site Animatch contient un certain nombre de liens hypertextes vers
-        d’autres sites, mis en place avec l’autorisation de [Nom de l'Éditeur].
-        Cependant, [Nom de l'Éditeur] n’a pas la possibilité de vérifier le
-        contenu des sites ainsi visités, et n’assumera en conséquence aucune
+        d’autres sites, mis en place avec l’autorisation de Patrick Bodin.
+        Cependant, Patrick Bodin n’a pas la possibilité de vérifier le contenu
+        des sites ainsi visités, et n’assumera en conséquence aucune
         responsabilité de ce fait.
       </p>
       <h2>Cookies</h2>
