@@ -4,6 +4,7 @@ import compagnie from "../../assets/compagnie.jpg";
 import ferme from "../../assets/ferme.jpg";
 import NAC from "../../assets/nac.jpg";
 import { Link } from "react-router-dom";
+import "./Home.module.css";
 
 //Component uniquement pour gérer la homepage//
 export const HomePage = () => {
@@ -13,6 +14,7 @@ export const HomePage = () => {
       <div className="Hero">
         <h1>ANIMATCH</h1>
         <h2>
+          {" "}
           Le site de rencontre qu'il vous faut, ou plutôt à votre animal ;D
         </h2>
         <p>
@@ -35,7 +37,7 @@ export const HomePage = () => {
         </div>
         <section id="animaux">
           <h2>Voir tous les animaux</h2>
-          <ul>
+          <ul className="animaux-list">
             <li>
               <Link to="/animaux-domestiques">
                 <div className="image-wrapper">

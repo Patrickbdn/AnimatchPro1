@@ -1,0 +1,57 @@
+/* HomePage.css */
+
+.Hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.coeur {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+}
+
+.animaux-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.animaux-list li {
+  flex: 1 1 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.image-wrapper {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .animaux-list li {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Hero h1 {
+    font-size: 24px;
+  }
+
+  .Hero h2 {
+    font-size: 18px;
+  }
+
+  .Hero p {
+    font-size: 14px;
+  }
+}

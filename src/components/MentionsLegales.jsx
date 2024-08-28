@@ -36,7 +36,7 @@ const MentionsLegales = () => {
         fournissent ces informations.
       </p>
       <p>
-        Tous les informations indiquées sur le site [Nom du Site] sont données à
+        Tous les informations indiquées sur le site Animatch sont données à
         titre indicatif, et sont susceptibles d’évoluer. Par ailleurs, les
         renseignements figurant sur le site Animatch ne sont pas exhaustifs. Ils
         sont donnés sous réserve de modifications ayant été apportées depuis
@@ -52,7 +52,7 @@ const MentionsLegales = () => {
       </p>
       <h2>Cookies</h2>
       <p>
-        Le site [Nom du Site] utilise des cookies pour améliorer l'expérience
+        Le site Animatch utilise des cookies pour améliorer l'expérience
         utilisateur. En utilisant ce site, vous acceptez l'utilisation de
         cookies. Pour plus d'informations sur les cookies, veuillez consulter
         notre politique de confidentialité.
