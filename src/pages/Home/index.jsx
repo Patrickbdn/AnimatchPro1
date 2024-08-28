@@ -2,7 +2,7 @@ import React from "react";
 import Coeur from "../../assets/coeur.jpg";
 import compagnie from "../../assets/compagnie.jpg";
 import ferme from "../../assets/ferme.jpg";
-import NAC from "../../assets/nac.jpg";
+import nac from "../../assets/nac.jpg";
 import { Link } from "react-router-dom";
 import "./Home.module.css";
 
@@ -58,7 +58,7 @@ export const HomePage = () => {
               <Link to="/autres-nac">
                 <div className="image-wrapper">
                   <h3>Autres...</h3>
-                  <img src={NAC} alt="Autres NAC" />
+                  <img src={nac} alt="Autres NAC" />
                 </div>
               </Link>
             </li>
