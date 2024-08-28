@@ -16,24 +16,23 @@ const MentionsLegales = () => {
       </p>
       <h2>Hébergeur</h2>
       <p>
-        Le site Animatch est hébergé par [Nom de l'Hébergeur], dont le siège
-        social est situé à [Adresse de l'Hébergeur], [Code Postal] [Ville],
-        [Pays].
+        Le site Animatch est hébergé par OVH, dont le siège social est situé 2
+        rue Kellermann - 59100 Roubaix - France.
       </p>
       <h2>Propriété Intellectuelle</h2>
       <p>
         Tous les contenus présents sur le site Animatch (textes, images, vidéos,
-        etc.) sont la propriété exclusive de [Nom de l'Éditeur] ou de ses
+        etc.) sont la propriété exclusive de Patrick Bodin ou de ses
         partenaires. Toute reproduction, diffusion, ou utilisation de ces
         contenus sans autorisation expresse est interdite.
       </p>
       <h2>Responsabilité</h2>
       <p>
-        [Nom de l'Éditeur] s'efforce de fournir des informations aussi précises
-        que possible. Toutefois, il ne pourra être tenu responsable des
-        omissions, des inexactitudes et des carences dans la mise à jour,
-        qu’elles soient de son fait ou du fait des tiers partenaires qui lui
-        fournissent ces informations.
+        Patrick Bodin s'efforce de fournir des informations aussi précises que
+        possible. Toutefois, il ne pourra être tenu responsable des omissions,
+        des inexactitudes et des carences dans la mise à jour, qu’elles soient
+        de son fait ou du fait des tiers partenaires qui lui fournissent ces
+        informations.
       </p>
       <p>
         Tous les informations indiquées sur le site Animatch sont données à

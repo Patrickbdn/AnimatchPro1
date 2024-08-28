@@ -2,7 +2,7 @@ import React from "react";
 import Coeur from "../../assets/coeur.jpg";
 import compagnie from "../../assets/compagnie.jpg";
 import ferme from "../../assets/ferme.jpg";
-import NAC from "../../assets/nac.jpg"; // Assurez-vous que le chemin est correct
+import NAC from "../../assets/nac.jpg";
 import { Link } from "react-router-dom";
 import "./Home.module.css";
 
