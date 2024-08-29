@@ -1,9 +1,6 @@
 // Importation de la bibliothèque React
 import React from "react";
 
-// Importation de l'image du logo depuis le répertoire des assets
-import logo from "../../assets/logo.jpg";
-
 // Importation du composant NavBar depuis le répertoire NavBar
 import NavBar from "../NavBar/NavBar";
 
@@ -15,7 +12,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       {/* Affichage de l'image du logo avec les styles CSS appliqués */}
-      <img src={logo} className={styles.logo} alt="logo" />
+      <img src="/logo.jpg" className={styles.logo} alt="logo" />
 
       {/* Affichage du composant NavBar */}
       <NavBar />
