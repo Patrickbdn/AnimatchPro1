@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
-import "./App.css";
 import AnimauxDomestiques from "./pages/AnimauxDomestiques";
 import AnimauxDeLaFerme from "./pages/AnimauxFerme";
 import AutresNAC from "./pages/AutresAnimaux";
@@ -14,6 +13,9 @@ import GrilleAnimaux from "./components/GrilleAnimaux";
 import animaux from "./data/animaux";
 import MentionsLegales from "./components/MentionsLegales";
 import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+
 function App() {
   return (
     <MainLayout>

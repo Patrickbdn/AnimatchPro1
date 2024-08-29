@@ -224,6 +224,7 @@ h1 {
 h2 {
   background-color: rgba(var(--green));
   border-radius: 32px;
+  font-size: 24px;
   display: flex;
   align-items: center; /* Centre verticalement */
   justify-content: center; /* Centre horizontalement */

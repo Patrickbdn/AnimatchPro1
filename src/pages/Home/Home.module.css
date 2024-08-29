@@ -12,15 +12,11 @@
 }
 
 .animaux-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   list-style: none;
   padding: 0;
 }
 
 .animaux-list li {
-  flex: 1 1 300px;
   margin: 10px;
   text-align: center;
 }
@@ -28,12 +24,18 @@
 .image-wrapper {
   border: 1px solid #ccc;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 15px; /* Ajout de border-radius pour les conteneurs d'images */
 }
 
 .image-wrapper img {
   width: 100%;
   height: auto;
+  border-radius: 15px; /* Ajout de border-radius pour les images */
+}
+
+/* Ajout de styles personnalisés pour les éléments <h2> */
+.Hero h2.custom-h2 {
+  font-size: 1.5rem !important; /* Ajuste la taille de la police selon tes besoins */
 }
 
 @media (max-width: 768px) {
