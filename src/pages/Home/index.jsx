@@ -1,12 +1,8 @@
 import React from "react";
-import Coeur from "../../assets/coeur.jpg";
-import compagnie from "../../assets/compagnie.jpg";
-import ferme from "../../assets/ferme.jpg";
-import NAC from "../../assets/nac.jpg";
 import { Link } from "react-router-dom";
 import "./Home.module.css";
 
-//Component uniquement pour gérer la homepage//
+// Component uniquement pour gérer la homepage //
 export const HomePage = () => {
   return (
     <>
@@ -15,7 +11,6 @@ export const HomePage = () => {
         <div className="Hero text-center">
           <h1>ANIMATCH</h1>
           <h2 className="custom-h2">
-            {" "}
             Le site de rencontre qu'il vous faut, ou plutôt à votre animal ;D
           </h2>
           <p>
@@ -28,7 +23,7 @@ export const HomePage = () => {
           <div className="mb-4">
             <Link to="/deposer-une-annonce">
               <img
-                src={Coeur}
+                src="/coeur.jpg"
                 className="coeur img-fluid rounded"
                 alt="Coeur"
                 width="160"
@@ -44,7 +39,7 @@ export const HomePage = () => {
                   <div className="image-wrapper text-center">
                     <h3>Animaux domestiques</h3>
                     <img
-                      src={compagnie}
+                      src="/compagnie.jpg"
                       alt="animaux domestiques"
                       className="img-fluid rounded"
                     />
@@ -56,7 +51,7 @@ export const HomePage = () => {
                   <div className="image-wrapper text-center">
                     <h3>Animaux de la ferme</h3>
                     <img
-                      src={ferme}
+                      src="/ferme.jpg"
                       alt="animaux de la ferme"
                       className="img-fluid rounded"
                     />
@@ -68,7 +63,7 @@ export const HomePage = () => {
                   <div className="image-wrapper text-center">
                     <h3>Autres...</h3>
                     <img
-                      src={NAC}
+                      src="/nac.jpg"
                       alt="Autres NAC"
                       className="img-fluid rounded"
                     />
@@ -82,4 +77,5 @@ export const HomePage = () => {
     </>
   );
 };
+
 export default HomePage;
