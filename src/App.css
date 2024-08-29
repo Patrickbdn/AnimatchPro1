@@ -223,7 +223,7 @@ h1 {
 }
 h2 {
   background-color: rgba(var(--green));
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 24px;
   display: flex;
   align-items: center; /* Centre verticalement */
@@ -233,7 +233,7 @@ h2 {
 }
 h3 {
   background-color: bisque;
-  border-radius: 15px;
+  border-radius: 10px;
   display: flex;
   align-items: center; /* Centre verticalement */
   justify-content: center; /* Centre horizontalement */
