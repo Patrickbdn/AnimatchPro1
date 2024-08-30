@@ -14,7 +14,7 @@ const FicheAnimal = () => {
       <img src={animal.image} alt={animal.nom} className="animal-image" />
       <p>Nom : {animal.nom}</p>
       <p>Sexe : {animal.sexe}</p>
-      <p>RAce : {animal.race}</p>
+      <p>Race : {animal.race}</p>
       <p>Espèce : {animal.espece}</p>
       <p>Couleur : {animal.couleur}</p>
       <p>Age : {animal.age} ans</p>
