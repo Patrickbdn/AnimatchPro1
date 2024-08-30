@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Home.module.css";
+import styles from "./Home.module.css";
 
 // Component uniquement pour gérer la homepage //
 export const HomePage = () => {
@@ -33,38 +33,40 @@ export const HomePage = () => {
           </div>
           <section id="animaux">
             <h2 className="custom-h2">Voir tous les animaux</h2>
-            <Link to="/animaux-domestiques">
-              <div className="image-wrapper text-center">
-                <h3>Animaux domestiques</h3>
-                <img
-                  src="/compagnie.jpg"
-                  alt="animaux domestiques"
-                  className="img-fluid rounded"
-                />
-              </div>
-            </Link>
-            <Link to="/animaux-de-la-ferme">
-              <div className="image-wrapper text-center">
-                <h3>Animaux de la ferme</h3>
-                <img
-                  src="/ferme.jpg"
-                  alt="animaux de la ferme"
-                  className="img-fluid rounded"
-                />
-              </div>
-            </Link>
-
-            <div>
-              <Link to="/autres-nac">
-                <div className="image-wrapper text-center">
-                  <h3>Autres...</h3>
+            <div className={styles.animauxContainer}>
+              <Link to="/animaux-domestiques">
+                <div className={styles.animauxDomestiques}>
+                  <h3>Animaux domestiques</h3>
                   <img
-                    src="/nac.jpg"
-                    alt="Autres NAC"
+                    src="/compagnie.jpg"
+                    alt="animaux domestiques"
                     className="img-fluid rounded"
                   />
                 </div>
               </Link>
+              <Link to="/animaux-de-la-ferme">
+                <div className={styles.animauxDeLaFerme}>
+                  <h3>Animaux de la ferme</h3>
+                  <img
+                    src="/ferme.jpg"
+                    alt="animaux de la ferme"
+                    className="img-fluid rounded"
+                  />
+                </div>
+              </Link>
+
+              <div>
+                <Link to="/autres-nac">
+                  <div className={styles.autresNac}>
+                    <h3>Autres...</h3>
+                    <img
+                      src="/nac.jpg"
+                      alt="Autres NAC"
+                      className="img-fluid rounded"
+                    />
+                  </div>
+                </Link>
+              </div>
             </div>
           </section>
         </div>

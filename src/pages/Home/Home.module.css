@@ -4,7 +4,26 @@
   text-align: center;
   padding: 20px;
 }
+.animauxContainer {
+  display: flex;
+  gap: 12px;
+}
 
+.animauxDomestiques {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.animauxDeLaFerme {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.autresNac {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
 .coeur {
   width: 100%;
   max-width: 160px;
