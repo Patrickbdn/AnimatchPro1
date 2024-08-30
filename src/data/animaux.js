@@ -82,7 +82,7 @@ const animaux = [
     espece: "cochon",
     couleur: "rose",
     image:
-      "https://images.pexels.com/photos/4636980/pexels-photo-4636980.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "https://images.pexels.com/photos/4129087/pexels-photo-4129087.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
   {
     id: 8,
