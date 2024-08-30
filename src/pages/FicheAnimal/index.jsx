@@ -11,8 +11,12 @@ const FicheAnimal = () => {
   }
   return (
     <div className={styles.ficheanimal}>
-      <p>Id : {animalId}</p>
+      <img src={animal.image} alt={animal.nom} className="animal-image" />
       <p>Nom : {animal.nom}</p>
+      <p>Sexe : {animal.sexe}</p>
+      <p>RAce : {animal.race}</p>
+      <p>Espèce : {animal.espece}</p>
+      <p>Couleur : {animal.couleur}</p>
       <p>Age : {animal.age} ans</p>
     </div>
   );

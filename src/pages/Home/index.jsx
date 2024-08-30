@@ -8,7 +8,7 @@ export const HomePage = () => {
     <>
       <div className="container">
         <div className="Introduction" />
-        <div className="Hero text-center">
+        <div className="hero text-center">
           <h1>ANIMATCH</h1>
           <h2 className="custom-h2">
             Le site de rencontre qu'il vous faut, ou plutôt à votre animal ;D
@@ -33,43 +33,38 @@ export const HomePage = () => {
           </div>
           <section id="animaux">
             <h2 className="custom-h2">Voir tous les animaux</h2>
-            <div className="row">
-              <div className="col-12 col-md-4">
-                <Link to="/animaux-domestiques">
-                  <div className="image-wrapper text-center">
-                    <h3>Animaux domestiques</h3>
-                    <img
-                      src="/compagnie.jpg"
-                      alt="animaux domestiques"
-                      className="img-fluid rounded"
-                    />
-                  </div>
-                </Link>
+            <Link to="/animaux-domestiques">
+              <div className="image-wrapper text-center">
+                <h3>Animaux domestiques</h3>
+                <img
+                  src="/compagnie.jpg"
+                  alt="animaux domestiques"
+                  className="img-fluid rounded"
+                />
               </div>
-              <div className="col-12 col-md-4">
-                <Link to="/animaux-de-la-ferme">
-                  <div className="image-wrapper text-center">
-                    <h3>Animaux de la ferme</h3>
-                    <img
-                      src="/ferme.jpg"
-                      alt="animaux de la ferme"
-                      className="img-fluid rounded"
-                    />
-                  </div>
-                </Link>
+            </Link>
+            <Link to="/animaux-de-la-ferme">
+              <div className="image-wrapper text-center">
+                <h3>Animaux de la ferme</h3>
+                <img
+                  src="/ferme.jpg"
+                  alt="animaux de la ferme"
+                  className="img-fluid rounded"
+                />
               </div>
-              <div className="col-12 col-md-4">
-                <Link to="/autres-nac">
-                  <div className="image-wrapper text-center">
-                    <h3>Autres...</h3>
-                    <img
-                      src="/nac.jpg"
-                      alt="Autres NAC"
-                      className="img-fluid rounded"
-                    />
-                  </div>
-                </Link>
-              </div>
+            </Link>
+
+            <div>
+              <Link to="/autres-nac">
+                <div className="image-wrapper text-center">
+                  <h3>Autres...</h3>
+                  <img
+                    src="/nac.jpg"
+                    alt="Autres NAC"
+                    className="img-fluid rounded"
+                  />
+                </div>
+              </Link>
             </div>
           </section>
         </div>

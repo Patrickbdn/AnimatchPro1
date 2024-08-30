@@ -14,7 +14,9 @@ const GrilleAnimaux = (props) => {
         // Conteneur pour chaque carte d'animal
         <div className="carte-animal" key={animal.id}>
           {/* Affichage de l'image de l'animal */}
-          <img src={animal.image} alt={animal.nom} className="animal-image" />
+          <a href={"/fiche-animal/" + animal.id}>
+            <img src={animal.image} alt={animal.nom} className="animal-image" />
+          </a>
           {/* Liste des informations sur l'animal */}
           <ul>
             <li>Espèce : {animal.espece}</li>

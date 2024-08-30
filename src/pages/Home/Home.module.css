@@ -1,6 +1,6 @@
 /* HomePage.css */
 
-.Hero {
+.hero {
   text-align: center;
   padding: 20px;
 }
@@ -34,7 +34,7 @@
 }
 
 /* Ajout de styles personnalisés pour les éléments <h2> */
-.Hero h2.custom-h2 {
+.hero h2.custom-h2 {
   font-size: 1.5rem !important; /* Ajuste la taille de la police selon tes besoins */
 }
 
@@ -45,15 +45,15 @@
 }
 
 @media (max-width: 480px) {
-  .Hero h1 {
+  .hero h1 {
     font-size: 24px;
   }
 
-  .Hero h2 {
+  .hero h2 {
     font-size: 18px;
   }
 
-  .Hero p {
+  .hero p {
     font-size: 14px;
   }
 }
