@@ -12,7 +12,9 @@ export const NavBar = () => {
   return (
     <nav className={`${styles.navbar} ${isOpen ? styles.open : ""}`}>
       <button className={styles.menuButton} onClick={toggleMenu} type="button">
-        Menu
+        <span className={styles.burgerLine}></span>
+        <span className={styles.burgerLine}></span>
+        <span className={styles.burgerLine}></span>
       </button>
       <ul className={styles.navList}>
         <li>

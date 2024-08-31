@@ -31,6 +31,27 @@
 
 @media (max-width: 768px) {
   .menuButton {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centre horizontalement les lignes */
+    width: 30px; /* Ajuster la largeur selon vos besoins */
+    height: 24px; /* Ajuster la hauteur selon vos besoins */
+    padding: 0;
+    cursor: pointer;
+    margin: 0 auto; /* Centre le bouton s'il est dans un conteneur plus large */
+  }
+
+  .burgerLine {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(253, 252, 252);
+  }
+
+  /* .menuButton {
     display: block;
     width: 100%;
     padding: 10px;
@@ -38,7 +59,7 @@
     color: white;
     border: none;
     cursor: pointer;
-  }
+  } */
 
   .navList {
     display: none;

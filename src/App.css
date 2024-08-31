@@ -218,7 +218,7 @@ button:hover {
 
 h1 {
   color: rgba(var(--brownlight));
-  font-size: 64px;
+  font-size: 52px;
   font-family: var(--inika);
 }
 @media (max-width: 768px) {
