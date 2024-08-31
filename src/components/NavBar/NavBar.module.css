@@ -51,16 +51,6 @@
     background-color: rgb(253, 252, 252);
   }
 
-  /* .menuButton {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: rgb(162, 96, 96);
-    color: white;
-    border: none;
-    cursor: pointer;
-  } */
-
   .navList {
     display: none;
     flex-direction: column;
