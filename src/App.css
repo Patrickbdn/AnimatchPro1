@@ -217,9 +217,11 @@ button:hover {
 }
 
 h1 {
+  margin-top: 25px;
   color: rgba(var(--brownlight));
   font-size: 52px;
   font-family: var(--inika);
+  margin-bottom: 20px;
 }
 @media (max-width: 768px) {
   h1 {
@@ -234,7 +236,7 @@ h2 {
   align-items: center; /* Centre verticalement */
   justify-content: center; /* Centre horizontalement */
   padding: 4px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   font-family: var(--inika);
 }
 h3 {

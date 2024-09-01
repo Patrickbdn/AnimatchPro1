@@ -11,8 +11,22 @@ export const HomePage = () => {
         <div className="hero text-center">
           <h1>ANIMATCH</h1>
           <h2 className="custom-h2">
-            Le site de rencontre qu'il vous faut, ou plutôt à votre animal ;D
+            Le site de rencontre qu'il vous faut, ou plutôt celui de votre
+            animal
+            <a href="https://tse2.mm.bing.net/th?id=OIP.u2C3RMsHE08lIv4ZhTRsPQHaHa&pid=Api&P=0&h=180">
+              <img
+                src="https://tse2.mm.bing.net/th?id=OIP.u2C3RMsHE08lIv4ZhTRsPQHaHa&pid=Api&P=0&h=180"
+                alt="smiley"
+                style={{
+                  width: "20px",
+                  height: "20px",
+                  verticalAlign: "middle",
+                  marginLeft: "8px",
+                }}
+              />
+            </a>
           </h2>
+
           <p>
             Vous recherchez un/une compagne pour votre animal afin d'assurer sa
             descendance ? Qu'il soit domestique ou de la ferme vous êtes au bon
