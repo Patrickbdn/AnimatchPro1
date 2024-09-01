@@ -232,7 +232,7 @@ h2 {
   background-color: rgba(var(--green));
   border-radius: 10px;
   font-size: 24px;
-  display: flex;
+  display: inline-block;
   align-items: center; /* Centre verticalement */
   justify-content: center; /* Centre horizontalement */
   padding: 4px;
