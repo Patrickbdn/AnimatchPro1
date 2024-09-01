@@ -34,6 +34,8 @@ export const HomePage = () => {
             dans votre région ou sur l'ensemble de la France ! Tout est gratuit
             ! de l'inscription à la mise en relation !
           </p>
+          <br />
+          <br />
           <div className="mb-4">
             <Link to="/deposer-une-annonce">
               <img
