@@ -46,11 +46,11 @@ export const HomePage = () => {
             </Link>
           </div>
           <section id="animaux">
-            <h2 className="custom-h2">Voir tous les animaux</h2>
+            <h2 className="custom-h2">Les animaux : </h2>
             <div className={styles.animauxContainer}>
               <Link to="/animaux-domestiques">
                 <div className={styles.animauxDomestiques}>
-                  <h3>Animaux domestiques</h3>
+                  <h3>Domestiques</h3>
                   <img
                     src="/compagnie.jpg"
                     alt="animaux domestiques"
@@ -60,7 +60,7 @@ export const HomePage = () => {
               </Link>
               <Link to="/animaux-de-la-ferme">
                 <div className={styles.animauxDeLaFerme}>
-                  <h3>Animaux de la ferme</h3>
+                  <h3>De la ferme</h3>
                   <img
                     src="/ferme.jpg"
                     alt="animaux de la ferme"
